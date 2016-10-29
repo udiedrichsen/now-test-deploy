@@ -1,0 +1,25 @@
+{
+  "name": "now-test-deploy",
+  "version": "0.1.0",
+  "author": "Ulrich Diedrichsen",
+  "license": "MIT",
+  "repository": "https://github.com/udiedrichsen/now-test-deploy.git",
+  "keywords": [
+    "now",
+    "deploy",
+    "howto",
+    "nodejs",
+    "expressjs"
+  ],
+  "homepage": "https://now-test-deploy-dfmylqxuja.now.sh",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "./node_modules/now/build/bin/now",
+  },
+  "devDependencies": {
+    "now": "^0.27.0"
+  }
+}
