@@ -11,13 +11,13 @@
     "nodejs",
     "expressjs"
   ],
-  "homepage": "https://now-test-deploy-dfmylqxuja.now.sh",
+  "homepage": "https://now-test-deploy-jatvvtjwmm.now.sh",
   "dependencies": {
     "express": "^4.13.4"
   },
   "scripts": {
     "start": "node index.js",
-    "deploy": "./node_modules/now/build/bin/now",
+    "deploy": "./node_modules/now/build/bin/now"
   },
   "devDependencies": {
     "now": "^0.27.0"
